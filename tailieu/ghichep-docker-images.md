@@ -1,4 +1,4 @@
-# docker mirror (docker images)
+﻿# docker mirror (docker images)
 
 ## Một số chú ý
 
@@ -165,7 +165,15 @@
 	root@u14-vagrant:~#
 	```
 
-### 1.5 Tạo container từ images 
+### 1.5. Xóa image.
+
+- Sử dụng lệnh `docker rmi` để xóa các images
+       ```sh
+       docker rmi <image> <image>
+       ```
+- Note: Có thể dùng option --force để ép buộc xóa image đó khi nó có container đang liên kết.
+
+### 1.6. Tạo container từ images 
 
 - Trong các tài liệu thường hay sử dụng lệnh `docker run hello-world` để chạy một container, sau khi chạy xong container này nó sẽ thoát. Tuy nhiên, đa số chúng ta lại cần tương tác nhiều hơn nữa với container (thao tác nhiều hơn). 
 
