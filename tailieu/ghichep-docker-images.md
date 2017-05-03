@@ -168,9 +168,11 @@
 ### 1.5. Xóa image.
 
 - Sử dụng lệnh `docker rmi` để xóa các images
+
        ```sh
        docker rmi <image> <image>
        ```
+
 - Note: Có thể dùng option --force để ép buộc xóa image đó khi nó có container đang liên kết.
 
 ### 1.6. Tạo container từ images 
