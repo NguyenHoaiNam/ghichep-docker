@@ -170,7 +170,7 @@
 - Sử dụng lệnh `docker rmi` để xóa các images
 
 	```sh
-	docker run -it ubuntu
+	docker rmi ubuntu
 	```
 
 - Note: Có thể dùng option --force để ép buộc xóa image đó khi nó có container đang liên kết.
